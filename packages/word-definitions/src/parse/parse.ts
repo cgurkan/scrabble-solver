@@ -9,6 +9,7 @@ import parseFrench from './parseFrench';
 import parseGerman from './parseGerman';
 import parsePolish from './parsePolish';
 import parseSpanish from './parseSpanish';
+import parseTurkish from './parseTurkish';
 
 const parsePerLocale: Record<Locale, (html: string) => ParseResult> = {
   [Locale.DE_DE]: parseGerman,
@@ -18,6 +19,7 @@ const parsePerLocale: Record<Locale, (html: string) => ParseResult> = {
   [Locale.FA_IR]: parseFarsi,
   [Locale.FR_FR]: parseFrench,
   [Locale.PL_PL]: parsePolish,
+  [Locale.TR_TR]: parseTurkish,  
 };
 
 const parse = (locale: Locale, html: string): ParseResult => {

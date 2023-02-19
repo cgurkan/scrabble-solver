@@ -277,7 +277,7 @@ module.exports = {
         after: true,
       },
     ],
-    'linebreak-style': ['error', 'unix'],
+    'linebreak-style': ['error', 'windows'],
     'lines-around-comment': 'off',
     'max-depth': ['error', 4],
     'max-len': ['error', 120],

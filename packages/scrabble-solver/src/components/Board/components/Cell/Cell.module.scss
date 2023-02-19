@@ -66,27 +66,29 @@ $icon-size: 16px;
 
   &.bonusCharacterMultiplier2 {
     &:before {
+      content: 'H²';
       background-color: var(--color--light-blue--light);
     }
   }
 
   &.bonusCharacterMultiplier3 {
     &:before {
-      background-color: var(--color--dark-blue--light);
+      content: 'H³';
+      background-color: var(--color--violet--light);
     }
   }
 
   &.bonusWord2 {
     &:before {
-      content: 'x2';
-      background-color: var(--color--orange);
+      content: 'K²';
+      background-color: var(--color--green);
     }
   }
 
   &.bonusWord3 {
     &:before {
-      content: 'x3';
-      background-color: var(--color--pink);
+      content: 'K³';
+      background-color: var(--color--foreground);
     }
   }
 

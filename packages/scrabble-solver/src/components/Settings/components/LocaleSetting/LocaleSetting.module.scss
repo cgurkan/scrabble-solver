@@ -74,4 +74,10 @@
 
     width: $height * $aspect-ratio;
   }
+
+  &.tr {
+    $aspect-ratio: 1.5;
+
+    width: $height * $aspect-ratio;
+  }
 }

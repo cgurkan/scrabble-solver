@@ -1,7 +1,7 @@
 import { Locale } from '@scrabble-solver/types';
 import { FunctionComponent, SVGAttributes } from 'react';
 
-import { FlagEs, FlagFa, FlagFr, FlagGb, FlagPl, FlagUs, FlagDe } from 'icons';
+import { FlagEs, FlagFa, FlagFr, FlagGb, FlagPl, FlagUs, FlagDe, FlagTr } from 'icons';
 
 import styles from './LocaleSetting.module.scss';
 
@@ -62,6 +62,14 @@ const options: Option[] = [
     label: 'Español',
     name: 'Spanish',
     value: Locale.ES_ES,
+  },
+  //TODO: Add more languages
+  {
+    className: styles.tr,
+    Icon: FlagTr,
+    label: 'Turkish',
+    name: 'Turkish',
+    value: Locale.TR_TR,
   },
 ].sort((a, b) => a.name.localeCompare(b.name));
 

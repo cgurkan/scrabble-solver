@@ -1,5 +1,5 @@
 import { Trie } from '@kamilmielnik/trie';
-import { literaki, scrabble } from '@scrabble-solver/configs';
+import { literaki, scrabble, kelimelik } from '@scrabble-solver/configs';
 import { dictionaries } from '@scrabble-solver/dictionaries';
 import { Board, Locale, Result, Tile } from '@scrabble-solver/types';
 

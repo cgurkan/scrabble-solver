@@ -38,4 +38,4 @@ export const CONSONANTS = [
   'ż',
 ];
 
-export const VOWELS = ['a', 'ą', 'ä', 'e', 'ę', 'i', 'o', 'ó', 'ö', 'u', 'ü', 'y'];
+export const VOWELS = ['a', 'ą', 'ä', 'e', 'ę', 'i', 'o', 'ó', 'ö', 'u', 'ü', 'y','ı'];

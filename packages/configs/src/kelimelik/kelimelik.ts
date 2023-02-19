@@ -1,25 +1,25 @@
 import { Config, Locale } from '@scrabble-solver/types';
 
 import bonuses from './bonuses';
-import { tilesEn, tilesEs, tilesFa, tilesFr, tilesPl, tilesDe , tilesTr} from './tiles';
+import { tilesDe, tilesEn, tilesEs, tilesFa, tilesFr, tilesPl, tilesTr } from './tiles';
 
 const base = {
-  allTilesBonusScore: 50,
+  allTilesBonusScore: 30,
   blankScore: 0,
   blanksCount: 2,
   boardHeight: 15,
   boardWidth: 15,
   bonuses,
-  id: 'scrabble',
+  id: 'kelimelik',
   maximumCharactersCount: 7,
-  name: 'Scrabble',
+  name: 'Kelimelik',
 };
 
-const scrabble = {
+const kelimelik = {
   id: base.id,
   name: base.name,
-  [Locale.EN_GB]: Config.fromJson({ ...base, tiles: tilesEn }),
   [Locale.DE_DE]: Config.fromJson({ ...base, tiles: tilesDe }),
+  [Locale.EN_GB]: Config.fromJson({ ...base, tiles: tilesEn }),
   [Locale.EN_US]: Config.fromJson({ ...base, tiles: tilesEn }),
   [Locale.ES_ES]: Config.fromJson({ ...base, tiles: tilesEs }),
   [Locale.FA_IR]: Config.fromJson({ ...base, tiles: tilesFa }),
@@ -28,4 +28,4 @@ const scrabble = {
   [Locale.TR_TR]: Config.fromJson({ ...base, tiles: tilesTr }),
 };
 
-export default scrabble;
+export default kelimelik;

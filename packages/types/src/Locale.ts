@@ -7,6 +7,7 @@ enum Locale {
   FA_IR = 'fa-IR',
   FR_FR = 'fr-FR',
   PL_PL = 'pl-PL',
+  TR_TR = 'tr-TR',
 }
 
 const locales = Object.values(Locale);

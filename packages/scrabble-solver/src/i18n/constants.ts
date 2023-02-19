@@ -50,4 +50,11 @@ export const LOCALE_FEATURES: Record<Locale, LocaleFeatures> = {
     consonants: true,
     vowels: true,
   },
+  //TODO: Add Turkish locale
+  [Locale.TR_TR]: {
+    direction: 'ltr',
+    fontFamily: 'Open Sans',
+    consonants: true,
+    vowels: true,
+  },
 };

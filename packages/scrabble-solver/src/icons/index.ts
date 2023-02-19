@@ -20,6 +20,7 @@ export { default as FlagGb } from './FlagGb.svg';
 export { default as FlagPl } from './FlagPl.svg';
 export { default as FlagUs } from './FlagUs.svg';
 export { default as FlagDe } from './FlagDe.svg';
+export { default as FlagTr } from './FlagTr.svg';
 export { default as Github } from './Github.svg';
 export { default as Keyboard } from './Keyboard.svg';
 export { default as Play } from './Play.svg';

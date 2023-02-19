@@ -6,6 +6,8 @@ import crawlFrench from './crawlFrench';
 import crawlGerman from './crawlGerman';
 import crawlPolish from './crawlPolish';
 import crawlSpanish from './crawlSpanish';
+import crawlTurkish from './crawlTurkish';
+
 
 const crawlPerLocale: Record<Locale, (word: string) => Promise<string>> = {
   [Locale.DE_DE]: crawlGerman,
@@ -15,6 +17,7 @@ const crawlPerLocale: Record<Locale, (word: string) => Promise<string>> = {
   [Locale.FA_IR]: crawlFarsi,
   [Locale.FR_FR]: crawlFrench,
   [Locale.PL_PL]: crawlPolish,
+  [Locale.TR_TR]: crawlTurkish, 
 };
 
 const crawl = (locale: Locale, word: string): Promise<string> => {
